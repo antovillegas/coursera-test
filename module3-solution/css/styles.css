@@ -1,0 +1,126 @@
+*	{
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+	}
+
+body {
+	background-color: #68b0ab;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 16px;
+  	color: #465466;
+  	
+	}
+
+/****************************HEADER*************************/
+#header-nav{
+	background-color: #8fc0a9;
+	border-radius: 0;
+	border: 0;
+}
+.navbar-brand h2 { /*Food,LLC name*/
+	font-family: 'Sansita One', cursive;
+	color: #465466;
+	font-size: 1.8em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #edf1f6; /*para dar sombra */
+	margin-top: -8px;
+	margin-bottom: 0;
+}
+
+#nav-elements-list  a { /*MENU NAMES */
+	font-family: 'Bowlby One', cursive;
+	font-size: 1.2em;
+	color: #edf1f6;
+	text-align: center;
+	text-shadow: 1px 1px 1px #222;
+	background: #465466;
+	display: inline-block;
+	outline: 1px solid black;
+	width: 100%;
+}
+
+
+#nav-elements-list a:hover {
+	background: #64676c;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1.8px solid #edf1f6;
+	background: #465466;
+}
+.navbar-header button.navbar-toggle{
+	clear: both;
+}
+	
+/********************END HEADER***************************/
+
+/********************MAIN CONTENT**************************/
+
+
+#main-content {
+	padding-bottom: 15px;
+}
+
+#main-content h2 { /*OUR MENU TEXT*/
+	font-family: 'Sansita One', cursive;
+	color: #465466;
+	font-size: 1.9em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #edf1f6; /*para dar sombra */
+}
+ 
+.menu p {
+	text-align: justify;
+	color: #edf1f6;
+	padding: 10px;
+}
+
+.menu h3{
+	font-family: 'Bowlby One', cursive;
+	font-size: 1.2em;
+	color: #edf1f6;
+	text-shadow: 1px 1px 1px #222;
+	padding-top: 35px;
+	padding-bottom: 15px;
+}
+.menu  {
+	background-color: #555f6c;
+	outline: 1px solid #edf1f6;
+	
+	
+}
+
+.menu h4{
+	font-family: 'Bowlby One', cursive;
+	font-size: 0.9em;
+	color: #edf1f6;
+	text-shadow: 1px 1px 1px #222;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	
+	
+}
+
+.text-center a:focus, .text-center a:hover{
+	text-decoration: none;
+}
+.row{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+/********************END MAIN CONTENT**************************/
+
+
+/*TO GENERATE A LITTLE BIT MARGIN ON XS VIEW ACCORDING TO THE MOBILE MOCKUP ILLUSTRATION*/
+/*
+@media (max-width: 767px) { 
+  
+  #main-content {
+	padding-left: 30px;
+	padding-right: 30px;
+
+}
+}*/
